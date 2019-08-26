@@ -1,0 +1,30 @@
+homebrew_taps:
+    - caskroom/cask
+
+homebrew_packages:
+    - { name: jq }
+    - { name: awscli }
+    - { name: openssl }
+    - { name: git }
+    - { name: docker-compose }
+    - { name: docker-machine }
+    - { name: python }
+    - { name: zsh, install_options: disable-etcdir }
+    - { name: wget }
+    - { name: curl }
+    - { name: cmake }
+    - { name: tree }
+    - { name: mysql }
+    - { name: gcc }
+    - { name: vim, install_options: with-lua }
+    - { name: node }
+    - { name: redis }
+    - { name: go }
+
+homebrew_cask_packages:
+    - { name: docker }
+    - { name: visual-studio-code }
+    - { name: slack }
+    - { name: google-chrome }
+    - { name: google-japanese-ime }
+
