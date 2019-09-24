@@ -20,6 +20,10 @@ homebrew_packages:
     - { name: node }
     - { name: redis }
     - { name: go }
+    - { name: pyenv }
+    - { name: ruby }
+    - { name: rbenv }
+    - { name: telnet }
 
 homebrew_cask_packages:
     - { name: docker }
@@ -27,4 +31,5 @@ homebrew_cask_packages:
     - { name: slack }
     - { name: google-chrome }
     - { name: google-japanese-ime }
+    - { name: virtualbox }
 
